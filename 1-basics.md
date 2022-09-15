@@ -1,6 +1,9 @@
 # Basics
 
-1. js embedded
+
+## js embedded
+
+Acá el script de js va a estar inmerso en el hmtml
 
    ```HTML
    <!DOCTYPE html>
@@ -20,7 +23,9 @@
 
 ---
 
-2. js file
+## js file
+
+Se crean 2 archivos que trabajaran juntos, `index.html` y `script.js`
 
    - index.html:
 
@@ -46,7 +51,7 @@
 
 ---
 
-3. comments
+## comments
 
    ```JS
    // comentario de una linea
@@ -58,7 +63,7 @@
 
 ---
 
-4. variables and data types
+## variables and data types
 
    - data types
 
@@ -88,7 +93,7 @@
 
 ---
 
-5. operators
+## operators
 
    - Relacionales
      ```
@@ -118,13 +123,14 @@
 
 ---
 
-6. cadenas de texto
+## cadenas de texto
 
-    - template literales
+template literales
         
-        En cadenas de texto se debe usar **``** y **${variable}** para concatenar variables
-        ```JS
-        const nombre = 'Luis'
-        console.log (`La edad de ${nombre} es: 16`)
-        // output: La edad de Luis es: 16
-        ```
+En cadenas de texto se debe usar **``** y **${variable}** para concatenar variables
+
+  ```JS
+    const nombre = 'Luis'
+    console.log (`La edad de ${nombre} es: 16`)
+    // output: La edad de Luis es: 16
+  ```

@@ -19,7 +19,9 @@
     console.log(`el nuevo valor de la posición 4 de array1 es: ${array1[4]}`)
     // output: el nuevo valor de la posición 4 de array1 es: 500
     ```
+
 ---
+
 2. Insertar valor
 
     ```JS
@@ -33,7 +35,9 @@
     console.log(array.toString())
     // output: a,b,c,d
     ```
+
 ---
+
 3. Eliminar valor
 
     ```JS
@@ -47,7 +51,9 @@
     console.log(array.toString())
     // output: a,b
     ```
+
 -----
+
 4. Listar valores
 
     ```JS
@@ -66,7 +72,6 @@
     }
     // output: a b c
     ```
-
 
 # Multidimensional Arrays
 

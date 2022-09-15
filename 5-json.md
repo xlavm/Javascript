@@ -21,4 +21,7 @@
    
     console.log(usuario.perfil.cuenta)
     // output: premium
+
+    console.log(usuario)
+    // output: { retorna todo el JSON }
     ```
