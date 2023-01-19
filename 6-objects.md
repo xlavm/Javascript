@@ -21,8 +21,6 @@
     // output: 16
     ```
 
------
-
 2. metodos en objetos
 
     ```JS

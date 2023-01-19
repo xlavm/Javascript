@@ -1,56 +1,5 @@
 # Basics
 
-
-## js embedded
-
-Acá el script de js va a estar inmerso en el hmtml
-
-   ```HTML
-   <!DOCTYPE html>
-   <html>
-       <head>
-           <meta charset="utf-8">
-           <title>Javascript</title>
-       </head>
-       <body>
-           Hola Mundo!
-           <script>
-               alert('Hola Mundo')
-           </script>
-       </body>
-   </html>
-   ```
-
----
-
-## js file
-
-Se crean 2 archivos que trabajaran juntos, `index.html` y `script.js`
-
-   - index.html:
-
-   ```HTML
-   <!DOCTYPE html>
-   <html>
-       <head>
-           <meta charset="utf-8">
-           <title>Javascript</title>
-       </head>
-       <body>
-           Hola Mundo!
-           <script> src="script.js"</script>
-       </body>
-   </html>
-   ```
-
-   - script.js:
-
-   ```JS
-   alert('Hola Mundo')
-   ```
-
----
-
 ## comments
 
    ```JS
@@ -65,7 +14,7 @@ Se crean 2 archivos que trabajaran juntos, `index.html` y `script.js`
 
 ## variables and data types
 
-   - data types
+- data types
 
      ```JS
      //primitivos
@@ -82,21 +31,24 @@ Se crean 2 archivos que trabajaran juntos, `index.html` y `script.js`
      const esp2 = undefined
      ```
 
-   - var - const - let
+- var - const - let
 
-     const: no se le puede cambiar el valor, el siguiente es un error
-     ```JS
-     const nombre = 'Luis Vanegas'
-     nombre = 'Luis'
-     ```
-     usar Let en vez de Var, pero si puedes, usa Const antes que Let porque es mas eficiente (corre mejor y es mas liviana)
+    const: no se le puede cambiar el valor, el siguiente es un error
+
+    ```JS
+    const nombre = 'Luis Vanegas'
+    nombre = 'Luis'
+    ```
+
+    usar Let en vez de Var, pero si puedes, usa Const antes que Let porque es mas eficiente (corre mejor y es mas liviana)
 
 ---
 
 ## operators
 
-   - Relacionales
-     ```
+- Relacionales
+
+     ```BASH
      <
      >
      <=
@@ -105,8 +57,10 @@ Se crean 2 archivos que trabajaran juntos, `index.html` y `script.js`
      ==
      === estrictamente igual "tipos de datos iguales"
      ```
-   - Matematicos
-     ```
+
+- Aritméticos
+
+     ```BASH
      +
      -
      *
@@ -114,19 +68,32 @@ Se crean 2 archivos que trabajaran juntos, `index.html` y `script.js`
      % modulo ej: x=13%5 x=3
      math.pow() exponenciación
      ```
-   - Logicos
-     ```
+
+- Logicos
+
+     ```BASH
      &&
      ||
      !
      ```
+
+- Asignacion
+
+     ```BASH
+     += equivale a x=x+5
+     -= equivale a x=x-5
+     *= equivale a x=x*5
+     /= equivale a x=x/5
+     etc..
+     ```
+
 
 ---
 
 ## cadenas de texto
 
 template literales
-        
+
 En cadenas de texto se debe usar **``** y **${variable}** para concatenar variables
 
   ```JS

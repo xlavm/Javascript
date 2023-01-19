@@ -1,6 +1,6 @@
 # Functions
 
-1. Funciones de Flecha 
+1. Funciones de Flecha
 
     Es recomendable usar funciones de flecha
 
@@ -16,4 +16,3 @@
     //funcion de flecha abreviada
     const sumar = (a, b) => a + b
     ```
-    

@@ -1,6 +1,6 @@
 # Cycles
 
-1. while 
+1. while
 
     ```JS
     var num = 1
@@ -11,9 +11,7 @@
     // output: el valor final de num es: 4
     ```
 
------
-
-2. do while 
+2. do while
 
     ```JS
     var num = 1
@@ -24,9 +22,7 @@
     // output: el valor final de num es: 4
     ```
 
------
-
-3. for 
+3. for
 
     ```JS
     for(var num = 0; num <= 3; num++){

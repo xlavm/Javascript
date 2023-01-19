@@ -12,8 +12,6 @@
     // output: aprobó con: 4.5
     ```
 
----
-
 2. switch
 
     ```JS
@@ -35,5 +33,4 @@
     // output: Bien hecho!!!
     ```
 
------
-
+---
