@@ -4,7 +4,7 @@
 
     ```PY
     nota = 4.5
-    if(nota > 3):
+    if nota > 3:
         print('aprobó con: ', nota)
     else:
         print('reprobó con: ', nota)

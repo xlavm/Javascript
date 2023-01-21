@@ -20,7 +20,7 @@
      #primitivos
      entero = 1
      flotante = 1.0304
-     booleano = true
+     booleano = True
      cadena = 'esta es una cadena'
      
 
@@ -28,6 +28,9 @@
      listas = [0,1,2]
      tuplas = ('hola', 7)
      diccionariosOHash = {'clave': 123, 'color': 'rojo'}
+
+     #especiales
+     const vacio = None
      ```
 
 - variables y Constantes
@@ -69,6 +72,14 @@
 
 - Logicos
 
+     ```PY
+     and
+     or
+     not
+     ```
+
+- Bit a Bit
+
      ```BASH
      & and
      | or 
@@ -97,6 +108,8 @@ template literales
 En cadenas de texto se debe usar **{}** como **{variable}** para concatenar variables
 
   ```PY
-    print("Hi {name}, you age is {age}".format(name="Luis", age="25"))
-    # output: Hi Luis, you age is 25
+     name="Luis"
+     age="25"
+     print("Hi {name}, you age is {age}".format(name=name, age=age))
+     # output: Hi Luis, you age is 25
   ```
