@@ -2,15 +2,15 @@
 
 ## py file compilado
 
-Se crean 2 archivos que trabajaran juntos, `index.html` y `script.js`
+Se crea el archivo `main.py`
 
-- index.py:
+- main.py:
 
    ```PY
    print('hola mundo')
    ```
 
-Si ejecutas el comando `py index.py` obtienes como salida: **hola mundo**
+Si ejecutas el comando `py main.py` obtienes como salida: **hola mundo**
 
 ---
 

@@ -12,6 +12,14 @@
     // output: aprobó con: 4.5
     ```
 
+    if ternario
+
+    ```JS
+    const nota = 4.5
+    console.log((nota > 3)?('aprobó con: '+ nota) : ('reprobó con: '+ nota))
+    // output: aprobó con: 4.5
+    ```
+
 2. switch
 
     ```JS

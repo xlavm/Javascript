@@ -30,7 +30,7 @@
      diccionariosOHash = {'clave': 123, 'color': 'rojo'}
 
      #especiales
-     const vacio = None
+     vacio = None
      ```
 
 - variables y Constantes
@@ -66,8 +66,7 @@
      /
      % modulo ej: x=13%5 x=3
      ** potenciacion ej: 12 ** 3 = 1728
-     // divicion con resultado numero entero ej: 18 // 5 = 3
-     math.pow() exponenciación
+     // division con resultado numero entero ej: 18 // 5 = 3
      ```
 
 - Logicos
