@@ -1,24 +1,31 @@
 # Arrays o Lista
 
-1. Mostrar o listar valores
+1. Declarar, inicializar y listar valores
 
     ```PY
+    #declarar e inicializar
     miArray = ['valor1', 2, True]
+
+    #listar
     print(miArray)
     # salida: ['valor1', 2 , True]
     print('valor de posición 2 de miArray es: ', miArray[2])
     # salida: valor de posición 2 de miArray es:  True
     for valor in miArray:
     print(valor)
-    """ 
-    salida:
-    valor1
-    2
-    True 
-    """
+    #salida: valor1 2 True 
     ```
 
-2. Insertar valor
+2. Modificar valor
+
+    ```PY
+    miArray = ['valor1', 2, True]
+    miArray[0] = 'nuevo valor'
+    print(miArray)
+    # salida: ['nuevo valor', 2, True]
+    ```
+
+3. Insertar valor
 
     ```PY
     miArray = ['valor1', 2, True]
@@ -30,7 +37,7 @@
     # salida: ['valor1', 2, 'valor en 2', True, 'nuevo valor']
     ```
 
-3. Eliminar valor
+4. Eliminar valor
 
     ```PY
     miArray = ['valor1', 2, True]
@@ -42,7 +49,7 @@
     # salida: [True]
     ```
 
-## Multidimensional Arrays
+## Arrays Multidimensional
 
 ```PY
 miArrayBi = [[1,2,3],[4,5,6]]
